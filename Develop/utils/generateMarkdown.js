@@ -1,9 +1,5 @@
 function generateMarkdown(data) {
-  var dataKeys = Object.keys(data)[0];
-  console.log("inside generate", data);
-
-
-
+  // console.log("inside generate", data);
   return `  
 # ${data.title}
 
@@ -18,11 +14,7 @@ ${data.usage}
 
 ## Contributors
 
-
-
 ${data.contributing}
-
-<img src="${data.avatar}" alt="avatar" style="border-radius:16px" width="30"/>
 
 ## Tests
 ${data.tests}
@@ -30,8 +22,16 @@ ${data.tests}
 ## Questions
 ${data.questions}
 
-## GitHub
-${data.github}
+## Author
+
+<img src="${data.avatar}" alt="avatar" style="border-radius:16px" width="30"/>
+
+email: ${data.githubusername}@gmail.com
+
+[GitHub Account](https://${data.githubaccount})
+
+[LinkedIn Account](${data.linkedin})
+
 
 ## License
 

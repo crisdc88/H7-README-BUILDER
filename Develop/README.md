@@ -1,34 +1,37 @@
   
-  
-# undefined
+# readme
 
 ## Description
-undefined
+readme
 
 ## Installation
-undefined
+none
 
 ## Usage
-undefined
+none
 
 ## Contributors
 
+none
 
+## Tests
+none
 
-undefined
+## Questions
+none
+
+## Author
 
 <img src="https://avatars.githubusercontent.com/u/61372364?" alt="avatar" style="border-radius:16px" width="30"/>
 
-## Tests
-undefined
+email: crisdc88@gmail.com
 
-## Questions
-undefined
+[GitHub Account](https://https://github.com/crisdc88/)
 
-## GitHub
-crisdc88
+[LinkedIn Account](www.linkedin.com/in/dcristinaterry)
+
 
 ## License
 
-![license](https://img.shields.io/badge/license-MIT-orange)
+![license](https://img.shields.io/badge/license-MIT-green)
 
