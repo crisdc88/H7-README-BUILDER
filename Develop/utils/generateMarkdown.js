@@ -1,27 +1,43 @@
 function generateMarkdown(data) {
   var dataKeys = Object.keys(data)[0];
-
-  console.log("this", dataKeys);
-  console.log("this title" ,  data.title);
-  
+  console.log("inside generate", data);
 
 
-  
-    // * Table of Contents
-    // * Installation
-    // * Usage
-    // * License
-    // * Contributing
-    // * Tests
-    // * Questions
 
-
-  
-
-
-  return `
+  return `  
 # ${data.title}
-`;
+
+## Description
+${data.description}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Contributors
+
+
+
+${data.contributing}
+
+<img src="${data.avatar}" alt="avatar" style="border-radius:16px" width="30"/>
+
+## Tests
+${data.tests}
+
+## Questions
+${data.questions}
+
+## GitHub
+${data.github}
+
+## License
+
+![license](https://img.shields.io/badge/license-${data.license}-green)
+`
+    ;
 }
 
 module.exports = generateMarkdown;
