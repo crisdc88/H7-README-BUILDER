@@ -6,13 +6,23 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+# Table of Contents
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Contribute](#Contribute)
+4. [Tests](#Tests)
+5. [Questions](#Questions)
+6. [Author](#Author)
+7. [License](#License)
+8. [Tests](#Tests)
+
 ## Installation
 ${data.installation}
 
 ## Usage
 ${data.usage}
 
-## Contributors
+## Contribute
 
 ${data.contributing}
 
@@ -24,9 +34,9 @@ ${data.questions}
 
 ## Author
 
-<img src="${data.avatar}" alt="avatar" style="border-radius:16px" width="30"/>
+<img src="${data.avatar}" alt="avatar" style="border-radius:20px" width="30"/>
 
-email: ${data.githubusername}@gmail.com
+email: ${data.email}
 
 [GitHub Account](https://${data.githubaccount})
 
