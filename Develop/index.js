@@ -8,58 +8,58 @@ const questions = [
 
     {
         type: "input",
-        Description: "Enter Title of your project",
+        message: "Enter Title of your project",
         name: "title"
     },
     {
         type: "input",
-        Description: "Enter the description",
+        message: "Enter the description",
         name: "description"
     },
     {
         type: "input",
-        Description: "Installation. please enter a step by step series of examples that tell you how to get a development env running",
+        message: "Installation. please enter a step by step series of examples that tell you how to get a development env running",
         name: "installation"
     },
     {
         type: "input",
-        Description: "usage",
+        message: "usage",
         name: "usage"
     },
     {
         type: "input",
-        Description: "contributing",
+        message: "contributing",
         name: "contributing"
     },
     {
         type: "input",
-        Description: "tests",
+        message: "tests",
         name: "tests"
     },
     {
         type: "input",
-        Description: "questions",
+        message: "questions",
         name: "questions"
     },
     {
         type: "input",
-        Description: "please enter gitHub user name",
+        message: "please enter gitHub user name",
         name: "githubusername"
     },
     {
         type: "input",
-        Description: "please enter GitHub account",
+        message: "please enter GitHub account",
         name: "githubaccount"
     },
 
     {
         type: "input",
-        Description: "please enter LinkedIn account",
+        message: "please enter LinkedIn account",
         name: "linkedin"
     },
     {
         type: "list",
-        Description: "Choose License",
+        message: "Choose License",
         name: "license",
         choices: ["MIT"]
     }
