@@ -1,6 +1,6 @@
 # H7-README-BUILDER
 
-This application will generate a README.md file.
+This application will generate a dynamicaly README.md file from a user's input.
 
 ## GettingStarted
 
@@ -10,11 +10,21 @@ Project Location
 
 ## Prerequisites
 
->N/A
+* npm
+* Visual Studio Code
 
 ## Built With
 
 * Node js
+
+## Installation
+
+1. Clone project from github.
+2. Open the terminal and go to the project's path
+3. run npm install
+4. run node index.js
+5. Answer question on console.
+6. open README.md when generated in Develp folder
 
 ## Deployed Link
 
@@ -53,6 +63,13 @@ Project Location
 
 ```
 
+## Screen Shots
+
+![ss1](./Develop/ScreenShotinput.png)
+
+![ss1](./Develop/ScreenReadme.png)
+
+
 ## Author
 
 <img src="https://avatars.githubusercontent.com/u/61372364?" alt="avatar" style="border-radius:20px" width="30"/>
@@ -62,6 +79,7 @@ D. Cristina Terry
 GitHub: [https://github.com/crisdc88/](https://github.com/crisdc88/),
 
 LinkedIn: [www.linkedin.com/in/dcristinaterry](www.linkedin.com/in/dcristinaterry)
+
 
 ## License
 
